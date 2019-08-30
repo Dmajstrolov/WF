@@ -21,15 +21,11 @@ namespace wf2
         {
 
 
-            int sum = int.Parse(textBox1.Text);
+            
            
-            label1.Text = "hej";
+            label1.Text = "hejsan";
 
-            int tal = 2;
-
-            sum = tal + 2;
-
-            textBox1.Text = sum.ToString();
+            
 
 
 
