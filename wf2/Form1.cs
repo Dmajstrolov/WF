@@ -20,6 +20,7 @@ namespace wf2
         private void Button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hej");
+            label1.Text = "hej";
         }
     }
 }
