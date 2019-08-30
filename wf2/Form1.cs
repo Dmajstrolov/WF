@@ -19,8 +19,22 @@ namespace wf2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hej");
+
+
+            int sum = int.Parse(textBox1.Text);
+           
             label1.Text = "hej";
+
+            int tal = 2;
+
+            sum = tal + 2;
+
+            textBox1.Text = sum.ToString();
+
+
+
+
+
         }
     }
 }
